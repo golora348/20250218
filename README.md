@@ -1,5 +1,5 @@
 # Flow Free Solver GUI
-이 코드는 SAT(Boolean Satisfiability)와 Tkinter GUI를 사용하여 Flow Free 퍼즐을 푸는 파이썬 프로그램입니다.
+이 코드는 SAT(Boolean Satisfiability) solver와 Tkinter GUI를 사용하여 Flow Free 퍼즐을 푸는 파이썬 프로그램입니다.
 
 <BR>
 
@@ -9,7 +9,7 @@
 <BR>
 
 ## 🔍 주요 기능
-- **SAT 활용**: `pycosat` 라이브러리를 사용하여 Flow Free 퍼즐을 SAT 문제로 변환하고 해결합니다.
+- **SAT solver 활용**: `pycosat` 라이브러리를 사용하여 Flow Free 퍼즐을 SAT 문제로 변환하고 해결합니다.
 - **Tkinter GUI**: 사용자 친화적인 그래픽 인터페이스를 제공하여 퍼즐을 시각적으로 입력하고 해결 과정을 확인할 수 있습니다.
 - **자동 퍼즐 해결**: 퍼즐을 입력하면 SAT 솔버를 통해 자동으로 해를 찾아 Canvas에 시각적으로 표시합니다.
 - **다양한 설정 옵션**: 셀 크기, 선 굵기 등 GUI 설정을 사용자가 조절할 수 있습니다.
@@ -19,7 +19,7 @@
 ## 💾 다운로드 <BR>
 | Program                                | URL                                                | 필수여부 | 비고                                                                                           |
 |----------------------------------------|----------------------------------------------------|----------|------------------------------------------------------------------------------------------------|
-| `Python`            | [Download](https://www.python.org/downloads/release/python-390/)   | 필수     | ◼ Python Script 동작, 파이썬 3.9.0 버전 또는 그 이상 사용 가능 |
+| `Python`            | [Download](https://www.python.org/downloads/)   | 필수     | ◼ Python Script 동작, 파이썬 3.9.0 버전 또는 그 이상 권장 |
 | `반디집`             | [Download](https://kr.bandisoft.com/bandizip/)   | 필수     | ◼ (* 다른 압축 프로그램 사용 가능) |
 
 <BR>
