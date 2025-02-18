@@ -16,7 +16,7 @@ FMOD Sound Bank (.fsb) 및 Bank (.bank) 파일에서 오디오 스트림을 추�
 
    - **확장된 파일 처리 기능 (Expanded File Processing Capabilities):**
        - **Bank 파일 지원 (.bank):**
-           - FSB, Bank 파일 모두 지원.** (기존 프로그램은 FSB 파일만 지원) <BR> <BR>
+           - **FSB, Bank 파일 모두 지원.** (기존 프로그램은 FSB 파일만 지원) <BR> <BR>
    
    - **향상된 출력 제어 (Enhanced Output Control):**
        - **다양한 출력 디렉토리 옵션:** 명령줄 인수/GUI 옵션으로 WAV 저장 위치 유연하게 선택 가능 (`-res`, `-exe`, `-o` 옵션).
