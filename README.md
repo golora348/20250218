@@ -10,16 +10,11 @@ FMOD Sound Bank (.fsb) 및 Bank (.bank) 파일에서 오디오 스트림을 추�
 
 ## 🔍 주요 기능 및 개선 사항 (Features and Improvements)
 
-본 FSB/BANK 추출 도구는 기존 기본 버전 (`fsb_aud_extr.exe`) 대비 **획기적으로 향상**되었습니다. <BR> <BR>
-
-C++, C#, GUI 버전은 **사용자 경험, 기능, 안정성** 모든 면에서 발전을 이루었습니다. <BR> <BR>
-
 **I. 공통 개선 사항 (Common Improvements)**
 
 * **확장된 파일 처리 기능 (Expanded File Processing Capabilities):**
     * **Bank 파일 지원 (.bank):**
-        * **FSB, Bank 파일 모두 지원.** (기존 프로그램은 FSB 파일만 지원)
-        * **더 넓은 오디오 자산 호환성, 대규모 프로젝트 효율 증대, 작업 흐름 간소화.** <BR> <BR>
+        * **FSB, Bank 파일 모두 지원.** (기존 프로그램은 FSB 파일만 지원) <BR> <BR>
 
 * **향상된 출력 제어 (Enhanced Output Control):**
     * **다양한 출력 디렉토리 옵션:** 명령줄 인수/GUI 옵션으로 WAV 저장 위치 유연하게 선택 가능 (`-res`, `-exe`, `-o` 옵션).
@@ -28,7 +23,7 @@ C++, C#, GUI 버전은 **사용자 경험, 기능, 안정성** 모든 면에서 
     * **사용자 맞춤형 출력, 체계적인 파일 구성, 효율적인 워크플로우 지원.** <BR> <BR>
 
 * **강력한 오류 처리 및 검증 (Robust Error Handling and Verification):**
-    * **Verbose Logging:** 상세 로그 (명령줄 인수 `-v`/GUI 체크박스 활성화) 로 심층 분석 및 디버깅 지원.
+    * **Verbose Logging:** 상세 로그 (명령줄 인수 `-v` or GUI 체크박스 활성화) 로 심층 분석 및 디버깅 지원.
     * **로그 레벨 구분:** INFO, WARNING, ERROR 레벨로 로그 분류, 효율적인 문제 식별.
     * **로그 메시지에 함수 이름 명시:** 오류 발생 함수 이름 로그 기록, 디버깅 시간 단축.
     * **진행률 표시 (CLI & GUI):** CLI 텍스트, GUI 시각적 진행률 표시로 작업 상태 명확히 제공.
