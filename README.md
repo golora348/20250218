@@ -10,6 +10,8 @@ FMOD Sound Bank (.fsb) 및 Bank (.bank) 파일에서 오디오 스트림을 추�
 
 ## 🔍 주요 기능 및 개선 사항 (Features and Improvements)
 
+⚠️ **본 FSB/BANK Extractor는 zenhax.com 포럼에서 id-daemon 이 작성한 게시글 ([FMOD FSB files extractor (through their API)](https://zenhax.com/viewtopic.php@t=1901.html)) 에 포함된 `fsb_aud_extr.exe` 프로그램에서 아이디어를 얻어 제작되었습니다.** <BR> <BR>
+
 - **공통 개선 사항 (Common Improvements)**
 
    - **확장된 파일 처리 기능 (Expanded File Processing Capabilities):**
