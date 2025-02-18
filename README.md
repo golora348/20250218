@@ -2,6 +2,8 @@
 
 <BR> <BR>
 
+⚠️ **본 FSB/BANK Extractor는 zenhax.com 포럼에서 id-daemon 이 작성한 게시글 ([FMOD FSB files extractor (through their API)](https://zenhax.com/viewtopic.php@t=1901.html)) 에 포함된 `fsb_aud_extr.exe` 프로그램에서 아이디어를 얻어 제작되었습니다.** <BR> <BR>
+
 FMOD Sound Bank (.fsb) 및 Bank (.bank) 파일에서 오디오 스트림을 추출하여 Waveform Audio (.wav) 파일로 저장하는 프로그램입니다. <BR> <BR>
 
 명령줄 (CLI) 버전과 그래픽 사용자 인터페이스 (GUI) 버전을 모두 제공합니다.
@@ -9,8 +11,6 @@ FMOD Sound Bank (.fsb) 및 Bank (.bank) 파일에서 오디오 스트림을 추�
 <BR>
 
 ## 🔍 주요 기능 및 개선 사항 (Features and Improvements)
-
-⚠️ **본 FSB/BANK Extractor는 zenhax.com 포럼에서 id-daemon 이 작성한 게시글 ([FMOD FSB files extractor (through their API)](https://zenhax.com/viewtopic.php@t=1901.html)) 에 포함된 `fsb_aud_extr.exe` 프로그램에서 아이디어를 얻어 제작되었습니다.** <BR> <BR>
 
 - **공통 개선 사항 (Common Improvements)**
 
