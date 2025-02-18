@@ -61,5 +61,15 @@ or <BR>
      
 <BR>
 
+## 📃 출처
+이 Flow Free Solver GUI는 다음 자료를 기반으로 제작되었습니다.
+
+- **기본 코드**: [mzucker/flow_solver](https://github.com/mzucker/flow_solver)
+- **참고 자료**: [mzucker's blog post: Solving Flow Puzzles using SAT](https://mzucker.github.io/2016/08/28/flow-solver.html)
+
+**이 GUI 프로그램의 기본적인 로직은 `mzucker/flow_solver` 프로젝트에서 가져왔으며, Tkinter GUI 및 사용자 인터페이스는 본 프로젝트에서 새롭게 구현되었습니다.**
+
+<BR>
+
 ## ⚖️ 라이센스
 이 프로젝트는 [MIT License](LICENSE)에 따라 라이선스가 부여됩니다.
