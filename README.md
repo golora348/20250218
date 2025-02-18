@@ -37,12 +37,12 @@ CSV 파일 데이터로 워드 클라우드를 쉽게 만들 수 있는 Tkinter 
 ## 💾 다운로드 <BR>
 | Program                                | URL                                                | 필수여부 | 비고                                                                                           |
 |----------------------------------------|----------------------------------------------------|----------|------------------------------------------------------------------------------------------------|
-| `Python`            | [Download](https://www.python.org/downloads/)   | 필수     | ◼ Python Script 동작, 파이썬 3.9.0 버전 또는 그 이상 권장 |
-| `반디집`             | [Download](https://kr.bandisoft.com/bandizip/)   | 필수     | ◼ (* CSV 파일 압축 해제 시 필요, 다른 압축 프로그램 사용 가능) |
+| `Visual Studio 2022 (v143)`            | [Download](https://visualstudio.microsoft.com/)   | 필수     | ◼ 솔루션(프로젝트) 작업 |
+| `FMOD Engine (v2.03.06)`             | [Download](https://www.fmod.com/download#fmodengine)   | 필수     | ◼ FMOD API 사용 |
 
 <BR>
 
-## 🛠️ 설치
+## 🛠️ 개발 환경
 
 1. Python 을 설치합니다. <BR> <BR>
 **[ ※ 주의 ] Python 설치 시 Add python.exe to PATH 에 체크 후 Install Now 클릭** <BR>
