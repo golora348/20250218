@@ -1,5 +1,5 @@
 # Flow Free Solver GUI
-`Limbus Company File Mapper`는 `catalog_S1.json` 파일에 정의된 URL 정보를 이용하여 Limbus Company Client의 `__data` 파일들을 사용자가 지정한 위치에 구조화하여 복사하는 Python 스크립트입니다.
+이 코드는 SAT(Boolean Satisfiability)와 Tkinter GUI를 사용하여 Flow Free 퍼즐을 푸는 파이썬 프로그램입니다.
 
 <BR>
 
@@ -9,14 +9,10 @@
 <BR>
 
 ## 🔍 주요 기능
-- **자동/수동 경로 지정**  
-  `__data` 파일 검색 경로와 `catalog_S1.json` 파일 경로를 자동 또는 수동으로 지정하는 옵션 제공 <BR> <BR>
-
-- **URL 기반 파일 매핑**  
-  `catalog_S1.json` 파일 내 URL 정보를 활용하여 `__data` 파일과 매칭 및 복사 작업 수행 <BR> <BR>
-
-- **자동 폴더 생성 및 파일 복사**  
-  URL 구조를 기반으로 저장 경로에 자동 폴더 생성 및 `__data` 파일 복사 기능 제공
+- **SAT 활용**: `pycosat` 라이브러리를 사용하여 Flow Free 퍼즐을 SAT 문제로 변환하고 해결합니다.
+- **Tkinter GUI**: 사용자 친화적인 그래픽 인터페이스를 제공하여 퍼즐을 시각적으로 입력하고 해결 과정을 확인할 수 있습니다.
+- **자동 퍼즐 해결**: 퍼즐을 입력하면 SAT 솔버를 통해 자동으로 해를 찾아 Canvas에 시각적으로 표시합니다.
+- **다양한 설정 옵션**: 셀 크기, 선 굵기 등 GUI 설정을 사용자가 조절할 수 있습니다.
 
 <BR>
 
@@ -55,34 +51,14 @@ or <BR>
 
 `Flow Free Solver GUI.py` 를 실행합니다. <BR> <BR>
 
-### 2. **`__data` 파일 검색 경로 지정**  
+### 2. **GUI 조작**: 
 
-- 자동 (1번 선택):
-  - 스크립트가 기본 경로 (C:\Users\(Your_User_Name)\AppData\LocalLow\Unity\ProjectMoon_LimbusCompany)에서 `__data` 파일을 자동으로 검색합니다. <BR> <BR>
-- 수동 (2번 선택):
-  - 파일 선택 대화 상자가 열리면, Limbus Company Client의 `__data 파일`이 포함된 최상위 폴더를 직접 선택합니다.
-
-<BR>
-
-### 3. **`catalog_S1.json` 파일 경로 지정**  
-
-- 자동 (1번 선택):
-  - 스크립트가 기본 경로 (C:\Users\(Your_User_Name)\AppData\LocalLow\ProjectMoon\LimbusCompany)에서 `catalog_S1.json` 파일을 자동으로 검색합니다. <BR> <BR>
-- 수동 (2번 선택):
-  - 파일 선택 대화 상자가 열리면, `catalog_S1.json` 파일을 직접 선택합니다.
-
-<BR>
-
-### 4. **처리된 파일 저장 경로 지정**
-
-디렉토리 선택 대화 상자가 열리면, `__data` 파일들을 복사하여 저장할 폴더를 선택합니다.
-
-<BR>
-
-### 5. **처리된 파일 확인**
-
-처리된 파일 저장 경로로 이동하여 처리 된 파일을 확인합니다.
-
+   - **Grid Size**: 텍스트 상자에 원하는 Grid 크기를 입력하고 "Create Grid" 버튼을 클릭하여 퍼즐 입력 Grid를 생성합니다.
+   - **Cell Size & Line Size**: "Size Options" Frame에서 Cell 크기와 Line 굵기를 조절하고 "Apply Cell Size", "Apply Line Size" 버튼을 클릭하여 적용합니다.
+   - **Color Palette**: "Color Options" Frame에서 원하는 색상을 선택합니다.
+   - **퍼즐 입력**: Canvas에서 색상을 지정할 Cell을 클릭하여 시작점과 끝점을 표시합니다. 같은 색상을 다시 클릭하면 제거됩니다.
+   - **Solve Puzzle**: "Display" Frame의 "Solve Puzzle" 버튼을 클릭하여 퍼즐을 해결합니다. Canvas에 해답이 시각적으로 표시됩니다.
+     
 <BR>
 
 ## ⚖️ 라이센스
