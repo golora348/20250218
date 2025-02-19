@@ -163,5 +163,24 @@ FMOD Sound Bank (.fsb) 및 Bank (.bank) 파일에서 오디오 스트림을 추�
 
 <BR>
 
-## ⚖️ 라이센스
-이 프로젝트는 [MIT License](LICENSE)에 따라 라이선스가 부여됩니다.
+## ⚖️ 라이선스
+
+- **FMOD**
+   - 본 프로젝트는 개인적, 비상업적 용도로 제작되었으며, Firelight Technologies Pty Ltd.에서 제공하는 **FMOD 엔진 라이선스 계약**의 적용을 받는 FMOD 엔진을 포함하고 있습니다.
+   
+   - 본 프로젝트에 대한 **FMOD 엔진 라이선스 계약 전문**은 저장소 내 **FMOD_LICENSE.TXT** 파일에 포함되어 있습니다.
+   
+   - **본 프로젝트에 적용되는 FMOD 엔진 라이선스의 구체적인 조건 및 조항은 FMOD_LICENSE.TXT 파일을 참조하시기 바랍니다.**
+   
+   - FMOD 라이선스에 대한 일반적인 정보는 공식 FMOD 웹사이트 ([FMOD Licensing](https://www.fmod.com/licensing)) 및 일반적인 **FMOD 최종 사용자 라이선스 계약 (EULA)** ([FMOD End User License Agreement](https://www.fmod.com/licensing#fmod-end-user-license-agreement)) 에서 확인하실 수 있습니다.
+   
+   - **본 프로젝트에서 FMOD 엔진 사용과 관련된 주요 사항 (요약 - 자세한 내용은 FMOD_LICENSE.TXT 파일 참조):**
+     
+      - **라이선스:** **FMOD_LICENSE.TXT** 파일은 본 프로젝트의 FMOD 엔진 라이선스에 대한 최종적인 라이선스 조건을 담고 있습니다.
+      - **비상업적 용도:** 본 프로젝트는 개인적, 교육적 또는 취미 목적으로만 사용될 수 있으며, 첨부된 **FMOD_LICENSE.TXT** 파일의 조건에 따라 비상업적 용도로 라이선스가 허여되었습니다. 상업적 사용, 수익 창출 또는 어떠한 형태의 금전적 이익을 위한 용도로는 사용될 수 없습니다.
+      - **저작자 표시 (프로그램 배포 시):** 라이선스에서 허용하는 비상업적 목적으로 FMOD 엔진으로 빌드된 프로그램을 배포하는 경우, 일반적인 FMOD EULA 및 **FMOD_LICENSE.TXT** 파일에 명시된 바에 따라 프로그램 내에 "FMOD" 및 "Firelight Technologies Pty Ltd." 저작자 표시를 포함해야 합니다.
+      - **재배포 제한:** 본 프로젝트에서 FMOD 엔진 구성 요소의 배포는 **FMOD_LICENSE.TXT** 파일 및 일반적인 FMOD EULA에 명시된 조건을 따릅니다. 일반적으로 비상업적 맥락에서 런타임 라이브러리만 재배포가 허용됩니다. <BR> <BR>
+
+- **프로젝트 코드 라이선스**
+
+   - FMOD Engine 자체를 제외한 본 저장소의 코드는 **Apache 2.0 License** 하에 라이선스가 부여됩니다.
