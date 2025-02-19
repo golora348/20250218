@@ -181,6 +181,14 @@ FMOD Sound Bank (.fsb) 및 Bank (.bank) 파일에서 오디오 스트림을 추�
       - **저작자 표시 (프로그램 배포 시):** 라이선스에서 허용하는 비상업적 목적으로 FMOD 엔진으로 빌드된 프로그램을 배포하는 경우, 일반적인 FMOD EULA 및 **FMOD_LICENSE.TXT** 파일에 명시된 바에 따라 프로그램 내에 "FMOD" 및 "Firelight Technologies Pty Ltd." 저작자 표시를 포함해야 합니다.
       - **재배포 제한:** 본 프로젝트에서 FMOD 엔진 구성 요소의 배포는 **FMOD_LICENSE.TXT** 파일 및 일반적인 FMOD EULA에 명시된 조건을 따릅니다. 일반적으로 비상업적 맥락에서 런타임 라이브러리만 재배포가 허용됩니다. <BR> <BR>
 
+- **본 프로젝트에서 사용 된 아이콘:**
+
+  - **아이콘 이름:** Unboxing icons
+   - **제작자:** Graphix's Art
+   - **제공처:** Flaticon
+   - **URL:** https://www.flaticon.com/free-icons/unboxing <BR> <BR>
+
 - **프로젝트 코드 라이선스**
 
    - FMOD Engine 자체를 제외한 본 저장소의 코드는 **Apache 2.0 License** 하에 라이선스가 부여됩니다.
+
